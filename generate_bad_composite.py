@@ -61,8 +61,17 @@ def generate_bad_composite(input_path, output_path, model):
         return
 
     results = model(frame)
-    masks = results[0].masks.data.cpu().numpy()
-    class_ids = results[0].boxes.cls.cpu().numpy()
+
+    if not results or results[0] is None:
+        return
+
+    res = results[0]
+
+    if res.masks is None or res.boxes is None:
+        return
+
+    masks = res.masks.data.cpu().numpy()
+    class_ids = res.boxes.cls.cpu().numpy()
 
     for i, cls_id in enumerate(class_ids):
         if int(cls_id) == 0:
