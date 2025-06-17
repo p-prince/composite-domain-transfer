@@ -18,14 +18,12 @@ While most research in visual effects and deep learning aims to *improve* visual
 
 ## 💡 Features
 
-- ✅ Actor/person segmentation via YOLOv8 segmentation model
-- ✅ Hard matte edge simulation
-- ✅ Lighting inconsistency via fake gradients and spotlights
-- ✅ Subtle color spill (green halo/fringe)
-- ✅ Temperature mismatch based on scene statistics
-- ✅ Matte chatter / edge noise (flicker artifacts)
-- ✅ Batch processing from folders
-- ✅ Progress tracking via `tqdm`
+-  Actor/person segmentation via YOLOv8 segmentation model
+-  Hard matte edge simulation
+-  Lighting inconsistency via fake gradients and spotlights
+-  Subtle color spill (green halo/fringe)
+-  Temperature mismatch based on scene statistics
+-  Matte chatter / edge noise (flicker artifacts)
 
 ---
 
