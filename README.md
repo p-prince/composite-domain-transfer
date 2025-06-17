@@ -1,11 +1,11 @@
-# 🎬 Composite Domain Transfer
+# Composite Domain Transfer
 
 **Turn professional Hollywood movie shots into bad green screen composites.**  
 This project simulates visual artifacts commonly associated with amateur or flawed compositing, including hard matte edges, color spill, lighting mismatch, and temperature errors.
 
 ---
 
-## 🧠 Motivation
+## Motivation
 
 While most research in visual effects and deep learning aims to *improve* visual realism, this project does the opposite:
 
@@ -16,7 +16,7 @@ While most research in visual effects and deep learning aims to *improve* visual
 
 ---
 
-## 💡 Features
+## Features
 
 -  Actor/person segmentation via YOLOv8 segmentation model
 -  Hard matte edge simulation
@@ -27,7 +27,7 @@ While most research in visual effects and deep learning aims to *improve* visual
 
 ---
 
-## 🖼️ Before & After 
+## Before & After 
 
 | Movie | Good Composite | Bad Composite |
 |-------|----------------|----------------|
@@ -40,7 +40,7 @@ While most research in visual effects and deep learning aims to *improve* visual
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/composite-domain-transfer.git
