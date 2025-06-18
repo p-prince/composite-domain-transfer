@@ -42,6 +42,6 @@ While most research in visual effects and deep learning aims to *improve* visual
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/composite-domain-transfer.git
+git clone https://github.com/composite-domain-transfer.git
 cd composite-domain-transfer
 pip install -r requirements.txt
