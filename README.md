@@ -1,7 +1,6 @@
 # Composite Domain Transfer
 
-**Turn professional Hollywood movie shots into bad green screen composites.**  
-This project simulates visual artifacts commonly associated with amateur or flawed compositing, including hard matte edges, color spill, lighting mismatch, and temperature errors.
+This script simulates visual artifacts commonly associated with amateur or flawed compositing, including hard matte edges, color spill, lighting mismatch, and temperature errors.
 
 ---
 
